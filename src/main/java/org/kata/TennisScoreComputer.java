@@ -6,7 +6,7 @@ import org.kata.exception.FormatInputException;
 import org.kata.utils.Constant;
 
 
-public class de {
+public class TennisScoreComputer {
 
     public void tennisScore(String input) throws EmptyInputException, FormatInputException {
         if (StringUtils.isEmpty(input)) {

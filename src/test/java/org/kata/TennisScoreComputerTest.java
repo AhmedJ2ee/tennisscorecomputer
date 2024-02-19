@@ -1,10 +1,10 @@
-import org.junit.jupiter.api.AfterEach;
+package org.kata;
 
 import static org.assertj.core.api.Assertions.*;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.kata.TennisScoreComputer;
 import org.kata.exception.EmptyInputException;
 import org.kata.exception.FormatInputException;
 
